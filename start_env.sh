@@ -1,5 +1,5 @@
 #!/bin/bash
 #启动tracker
-fdfs_trackerd /etc/fdfs/tracker.conf
+sudo fdfs_trackerd /etc/fdfs/tracker.conf
 #启动storage
-fdfs_storaged /etc/fdfs/storage.conf
+sudo fdfs_storaged /etc/fdfs/storage.conf
